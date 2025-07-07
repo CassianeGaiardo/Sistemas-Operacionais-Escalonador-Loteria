@@ -10,3 +10,7 @@ bilhetes a cada uma das classes:
 • classe 3: 1 bilhete.
 
 Lembretes: A lógica é de sorteio por intervalos. O readme explica como rodar o teste. Teste e Teste2 são pouco úteis. O escalonador está em proc.c
+Se temos 4 processos cada um de uma classe e as classes tem bilhetes (pesos) 6, 3, 2, 1 = 12 logo o intervalo de sorteio é de 0 a 11.
+se num sorteado é 7 pertence a segunda classe. pois é maior que 6 e o resto é menor q 3. 
+após isso aplicamos round robin que nesse exemplo seria inútil. mas que se temos mais de um processo em cada classe seria útil.
+Essa descrição é só para caso eu me esqueça da lógica usada.
