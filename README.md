@@ -1,0 +1,12 @@
+Trabalho de Sistemas Operacionais com objetivo de estudar o código de uma implementação do Unix versão 6 (xv6) para a plataforma Risc-v. 
+Descrição do Trabalho I: implementar um escalonador de processos com classes de prioridades
+baseadas em loteria contemplando 4 classes: Classe 0 (mais alta prioridade) até Classe 3 (mais baixa
+prioridade); para seleção da classe de prioridade, aplica-se o procedimento de loteria e, após sorteio da
+classe, aplica-se a abordagem round robin internamente à classe. Serão atribuídos um número fixo de
+bilhetes a cada uma das classes:
+• classe 0: 6 bilhetes;
+• classe 1: 3 bilhetes;
+• classe 2: 2 bilhetes;
+• classe 3: 1 bilhete.
+
+Lembretes: A lógica é de sorteio por intervalos. O readme explica como rodar o teste. Teste e Teste2 são pouco úteis. O escalonador está em proc.c
